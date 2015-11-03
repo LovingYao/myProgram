@@ -1,0 +1,97 @@
+﻿@{
+    ViewBag.Title = "MenuMain";
+    Layout = "~/Views/Shared/_easyui.cshtml";
+}
+<body style="padding-bottom:0px; padding-left:5px;padding-right:5px;padding-top:5px">
+    <table id="dg" title=" " class="easyui-datagrid" style="width: 700px; height: 600px"
+           url="/Account/MenuSelect"
+           toolbar="#toolbar"
+           pagination="true"
+           pagesize="20"
+           rownumbers="true"
+           fitcolumns="true"
+           singleselect="true" fit="true"
+           data-options="width:'auto'
+
+           ">
+        <thead>
+            <tr>
+                <th data-options="field:'ID',width:50,align:'right'">ID</th>
+                <th data-options="field:'MENU_NAME',width:50,align:'right'">菜单名称</th>
+                <th data-options="field:'MENU_TYPE',width:15,align:'right'">菜单类型</th>
+                <th data-options="field:'MENU_HREF',width:8,align:'right'">菜单地址</th>
+                <th data-options="field:'PARENT_ID',width:50,align:'right'">所属菜单</th>
+                <th data-options="field:'SORT',width:38,align:'right'">排序</th>
+                <th data-options="field:'IS_ACTIVE',width:38,align:'right'">启用状态</th>
+                <th data-options="field:'CREATED_ON',width:38,align:'right'">创建时间</th>
+                <th data-options="field:'CREATED_BY',width:38,align:'right'">创建人</th>
+            </tr>
+        </thead>
+    </table>
+    <div id="toolbar">
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-add" plain="true" onclick="newUser()">添加</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-edit" plain="true" onclick="editUser()">修改</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-remove" plain="true" onclick="destroyUser()">删除</a>
+    </div>
+
+
+    <div id="dlg" class="easyui-dialog" style="width:400px;height:400px;padding:10px 20px"
+         closed="true" buttons="#dlg-buttons"
+         modal="true">
+        <div class="ftitle">菜单信息</div>
+        <form id="fm" method="post" novalidate>
+
+            <div class="fitem">
+                <label>菜单名称:</label>
+                <input id="MENU_NAME" name="MENU_NAME" class="easyui-validatebox" required="true">
+            </div>
+            <div class="fitem">
+                <label>菜单类型:</label>
+                <input name="MENU_TYPE" class="easyui-validatebox" required="true">
+            </div>
+            <div class="fitem">
+                <label>菜单地址:</label>
+                <input name="MENU_HREF" class="easyui-validatebox" required="true">
+            </div>
+            <div class="fitem">
+                <label>所属菜单:</label>
+                <input id="cc" class="easyui-combobox" name="PARENT_ID"
+                     data-options="valueField:'id',textField:'text',url:'/Account/ParentSelect'">
+            </div>
+            <div class="fitem">
+                <label>排序:</label>
+                <input name="SORT" class="easyui-validatebox" required="true">
+            </div>
+            
+
+        </form>
+    </div>
+    <div id="dlg-buttons">
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-ok" onclick="saveUser()">添加</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-cancel" onclick="javascript:$('#dlg').dialog('close')">关闭</a>
+    </div>
+    <script type="text/javascript" src="@Url.Content("~/Content/LADScript/MenuMain.js")"></script>
+    <style type="text/css">
+        #fm {
+            margin: 0;
+            padding: 10px 30px;
+        }
+
+        .ftitle {
+            font-size: 14px;
+            font-weight: bold;
+            padding: 5px 0;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .fitem {
+            margin-bottom: 5px;
+        }
+
+            .fitem label {
+                display: inline-block;
+                width: 80px;
+            }
+    </style>
+</body>

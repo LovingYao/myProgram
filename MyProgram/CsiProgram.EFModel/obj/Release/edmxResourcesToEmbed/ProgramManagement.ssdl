@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CsiProgramManagementModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="CsiProgramManagementModelStoreContainer">
+    <EntitySet Name="T_BASE_STATUS" EntityType="CsiProgramManagementModel.Store.T_BASE_STATUS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_CSI_PROJECT" EntityType="CsiProgramManagementModel.Store.T_CSI_PROJECT" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_CSI_PROJECT_DETAIL" EntityType="CsiProgramManagementModel.Store.T_CSI_PROJECT_DETAIL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_CSI_PROJECT_FILE" EntityType="CsiProgramManagementModel.Store.T_CSI_PROJECT_FILE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_CSI_PROJECT_MEMBER" EntityType="CsiProgramManagementModel.Store.T_CSI_PROJECT_MEMBER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_CSI_PROJECTCOST_DETAIL" EntityType="CsiProgramManagementModel.Store.T_CSI_PROJECTCOST_DETAIL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_CSI_TASK" EntityType="CsiProgramManagementModel.Store.T_CSI_TASK" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_CSI_TASK_DETAIL" EntityType="CsiProgramManagementModel.Store.T_CSI_TASK_DETAIL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_CSI_TASK_MEMBER" EntityType="CsiProgramManagementModel.Store.T_CSI_TASK_MEMBER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_SYS_MENU" EntityType="CsiProgramManagementModel.Store.T_SYS_MENU" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_SYS_ROLE" EntityType="CsiProgramManagementModel.Store.T_SYS_ROLE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_SYS_ROLE_MENU" EntityType="CsiProgramManagementModel.Store.T_SYS_ROLE_MENU" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_SYS_USER" EntityType="CsiProgramManagementModel.Store.T_SYS_USER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_SYS_USER_ROLE" EntityType="CsiProgramManagementModel.Store.T_SYS_USER_ROLE" store:Type="Tables" store:Schema="dbo" store:Name="T_SYS_USER_ROLE">
+      <DefiningQuery>SELECT 
+      [T_SYS_USER_ROLE].[ID] AS [ID], 
+      [T_SYS_USER_ROLE].[USER_ID] AS [USER_ID], 
+      [T_SYS_USER_ROLE].[ROLE_ID] AS [ROLE_ID], 
+      [T_SYS_USER_ROLE].[IS_ACTIVE] AS [IS_ACTIVE], 
+      [T_SYS_USER_ROLE].[CREATED_ON] AS [CREATED_ON], 
+      [T_SYS_USER_ROLE].[CREATED_BY] AS [CREATED_BY]
+      FROM [dbo].[T_SYS_USER_ROLE] AS [T_SYS_USER_ROLE]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <EntityType Name="T_BASE_STATUS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="STATUS_ID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="STATUS_NAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="GROUP_NAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="CREATED_ON" Type="nvarchar" MaxLength="50" />
+    <Property Name="CREATED_BY" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="T_CSI_PROJECT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PROJECT_NAME" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PROJECT_TYPE" Type="nvarchar" MaxLength="10" />
+    <Property Name="PROJECT_STATUS" Type="nvarchar" MaxLength="10" />
+    <Property Name="APPLY_USER" Type="nvarchar" MaxLength="50" />
+    <Property Name="ACCEPT_USER" Type="nvarchar" MaxLength="50" />
+    <Property Name="PLAN_STARTTIME" Type="nvarchar" MaxLength="50" />
+    <Property Name="PLAN_ENDTIME" Type="nvarchar" MaxLength="50" />
+    <Property Name="ACTUAL_STARTTIME" Type="nvarchar" MaxLength="50" />
+    <Property Name="ACTUAL_ENDTIME" Type="nvarchar" MaxLength="50" />
+    <Property Name="CREATED_ON" Type="nvarchar" MaxLength="50" />
+    <Property Name="CREATED_BY" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="T_CSI_PROJECT_DETAIL">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PROJECT_ID" Type="int" Nullable="false" />
+    <Property Name="PROJECT_PLANCOST" Type="numeric" Scale="2" />
+    <Property Name="PROJECT_ACTUALCOST" Type="numeric" Scale="2" />
+    <Property Name="BACKGROUND" Type="nvarchar(max)" />
+    <Property Name="PLANWORKTIME" Type="nvarchar" MaxLength="50" />
+    <Property Name="DESCRIPTION" Type="nvarchar(max)" />
+    <Property Name="RESV01" Type="nvarchar" MaxLength="50" />
+    <Property Name="RESV02" Type="nvarchar" MaxLength="50" />
+    <Property Name="RESV03" Type="nvarchar" MaxLength="50" />
+    <Property Name="RESV04" Type="nvarchar" MaxLength="50" />
+    <Property Name="RESV05" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="T_CSI_PROJECT_FILE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PROJECT_ID" Type="int" Nullable="false" />
+    <Property Name="FILE_NAME" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FILE_TYPE" Type="nvarchar" MaxLength="50" />
+    <Property Name="FILE_DESCRIPTION" Type="nvarchar" MaxLength="500" />
+    <Property Name="CREATED_ON" Type="nvarchar" MaxLength="50" />
+    <Property Name="CREATED_BY" Type="nvarchar" MaxLength="50" />
+    <Property Name="MODIFIED_ON" Type="nvarchar" MaxLength="50" />
+    <Property Name="MODIFIED_BY" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="T_CSI_PROJECT_MEMBER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PROJECT_ID" Type="int" Nullable="false" />
+    <Property Name="MEMBER_ID" Type="int" Nullable="false" />
+    <Property Name="MEMBER_NAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="RESPONSIBLE" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="T_CSI_PROJECTCOST_DETAIL">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PROJECT_ID" Type="int" Nullable="false" />
+    <Property Name="COST_NAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="PRICE" Type="numeric" Scale="2" />
+    <Property Name="QUANTITY" Type="int" />
+    <Property Name="CURRENCY" Type="nvarchar" MaxLength="10" />
+    <Property Name="DESCRIPTION" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="T_CSI_TASK">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PROJECT_ID" Type="int" Nullable="false" />
+    <Property Name="TASK_NAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="TASK_TYPE" Type="nvarchar" MaxLength="50" />
+    <Property Name="TASK_STATUS" Type="nvarchar" MaxLength="50" />
+    <Property Name="TASK_DESCRIPTION" Type="nvarchar" MaxLength="500" />
+    <Property Name="TASK_PLANSTARTTIME" Type="nvarchar" MaxLength="50" />
+    <Property Name="TASK_PLANENDTIME" Type="nvarchar" MaxLength="50" />
+    <Property Name="TASK_ACTUALSTARTTIME" Type="nvarchar" MaxLength="50" />
+    <Property Name="TASK_ACTUALENDTIME" Type="nvarchar" MaxLength="50" />
+    <Property Name="CREATED_ON" Type="nvarchar" MaxLength="50" />
+    <Property Name="CREATED_BY" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="T_CSI_TASK_DETAIL">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TASK_ID" Type="int" Nullable="false" />
+    <Property Name="EXECUTOR" Type="nvarchar" MaxLength="50" />
+    <Property Name="CONTENTS" Type="nvarchar(max)" />
+    <Property Name="TROUBLES" Type="nvarchar(max)" />
+    <Property Name="WORKTIME" Type="numeric" Scale="2" />
+    <Property Name="CREATED_ON" Type="nvarchar" MaxLength="50" />
+    <Property Name="CREATED_BY" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="T_CSI_TASK_MEMBER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TASK_ID" Type="int" />
+    <Property Name="MEMBER_ID" Type="int" />
+    <Property Name="MEMBER_NAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="REMARK" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="T_SYS_MENU">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MENU_NAME" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="MENU_TYPE" Type="nvarchar" MaxLength="50" />
+    <Property Name="MENU_HREF" Type="nvarchar" MaxLength="50" />
+    <Property Name="PARENT_ID" Type="int" Nullable="false" />
+    <Property Name="SORT" Type="int" />
+    <Property Name="IS_ACTIVE" Type="nvarchar" MaxLength="10" />
+    <Property Name="CREATED_ON" Type="nvarchar" MaxLength="50" />
+    <Property Name="CREATED_BY" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="T_SYS_ROLE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ROLE_NAME" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ROLE_DESC" Type="nvarchar" MaxLength="500" />
+    <Property Name="IS_ACTIVE" Type="nvarchar" MaxLength="10" />
+    <Property Name="CREATED_ON" Type="nvarchar" MaxLength="50" />
+    <Property Name="CREATED_BY" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="T_SYS_ROLE_MENU">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ROLE_ID" Type="int" Nullable="false" />
+    <Property Name="MENU_ID" Type="int" Nullable="false" />
+    <Property Name="IS_ACTIVE" Type="nvarchar" MaxLength="10" />
+    <Property Name="CREATED_ON" Type="nvarchar" MaxLength="50" />
+    <Property Name="CREATED_BY" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="T_SYS_USER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="USERNAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="PASSWORD" Type="nvarchar" MaxLength="50" />
+    <Property Name="NICKNAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="EMAIL" Type="nvarchar" MaxLength="50" />
+    <Property Name="CELLPHONE" Type="nvarchar" MaxLength="50" />
+    <Property Name="IS_ACTIVE" Type="nvarchar" MaxLength="10" />
+    <Property Name="CREATED_ON" Type="nvarchar" MaxLength="50" />
+    <Property Name="CREATED_BY" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“CsiProgramManagement.dbo.T_SYS_USER_ROLE”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="T_SYS_USER_ROLE">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="USER_ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="USER_ID" Type="int" Nullable="false" />
+    <Property Name="ROLE_ID" Type="int" />
+    <Property Name="IS_ACTIVE" Type="nvarchar" MaxLength="10" />
+    <Property Name="CREATED_ON" Type="nvarchar" MaxLength="50" />
+    <Property Name="CREATED_BY" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+</Schema>

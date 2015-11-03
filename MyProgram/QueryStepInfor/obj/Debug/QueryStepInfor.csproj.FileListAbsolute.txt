@@ -1,0 +1,10 @@
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\bin\Debug\QueryStepInfor.exe.config
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\obj\Debug\QueryStepInfor.csprojResolveAssemblyReference.cache
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\obj\Debug\QueryStepInfor.Form1.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\obj\Debug\QueryStepInfor.Properties.Resources.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\obj\Debug\QueryStepInfor.csproj.GenerateResource.Cache
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\bin\Debug\QueryStepInfor.exe
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\bin\Debug\QueryStepInfor.pdb
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\bin\Debug\MyXls.SL2.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\obj\Debug\QueryStepInfor.exe
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\obj\Debug\QueryStepInfor.pdb

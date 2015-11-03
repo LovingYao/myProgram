@@ -1,0 +1,10 @@
+D:\我的项目\MyProgram\SocketClient\bin\Release\SocketClient.exe.config
+D:\我的项目\MyProgram\SocketClient\bin\Release\SocketClient.exe
+D:\我的项目\MyProgram\SocketClient\bin\Release\SocketClient.pdb
+D:\我的项目\MyProgram\SocketClient\obj\Release\SocketClient.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\SocketClient\obj\Release\SocketClient.Form1.resources
+D:\我的项目\MyProgram\SocketClient\obj\Release\SocketClient.Properties.Resources.resources
+D:\我的项目\MyProgram\SocketClient\obj\Release\SocketClient.csproj.GenerateResource.Cache
+D:\我的项目\MyProgram\SocketClient\obj\Release\SocketClient.exe
+D:\我的项目\MyProgram\SocketClient\obj\Release\SocketClient.pdb
+D:\我的项目\MyProgram\SocketClient\obj\Release\SocketClient.AlertWindows.resources

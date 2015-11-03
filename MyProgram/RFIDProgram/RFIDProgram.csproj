@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{039B9AF1-D06C-4F35-B88F-A7AF464DEA3A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RFIDProgram</RootNamespace>
+    <AssemblyName>RFIDProgram</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>E:\项目\M05MES\项目源码\3. 自动化集成源码\3-3. 自动化集成V3.0\AutomationIntegration\ManagePlatform\bin\Release\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>E:\项目\M05MES\项目源码\3. 自动化集成源码\3-3. 自动化集成V3.0\AutomationIntegration\ManagePlatform\bin\Release\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls">
+      <HintPath>E:\项目\M05MES\项目源码\3. 自动化集成源码\3-3. 自动化集成V3.0\AutomationIntegration\ManagePlatform\bin\Release\Telerik.WinControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.ChartView">
+      <HintPath>E:\项目\M05MES\项目源码\3. 自动化集成源码\3-3. 自动化集成V3.0\AutomationIntegration\ManagePlatform\bin\Release\Telerik.WinControls.ChartView.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.GridView">
+      <HintPath>E:\项目\M05MES\项目源码\3. 自动化集成源码\3-3. 自动化集成V3.0\AutomationIntegration\ManagePlatform\bin\Release\Telerik.WinControls.GridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadChart">
+      <HintPath>E:\项目\M05MES\项目源码\3. 自动化集成源码\3-3. 自动化集成V3.0\AutomationIntegration\ManagePlatform\bin\Release\Telerik.WinControls.RadChart.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadDock">
+      <HintPath>E:\项目\M05MES\项目源码\3. 自动化集成源码\3-3. 自动化集成V3.0\AutomationIntegration\ManagePlatform\bin\Release\Telerik.WinControls.RadDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadMarkupEditor">
+      <HintPath>E:\项目\M05MES\项目源码\3. 自动化集成源码\3-3. 自动化集成V3.0\AutomationIntegration\ManagePlatform\bin\Release\Telerik.WinControls.RadMarkupEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Scheduler">
+      <HintPath>E:\项目\M05MES\项目源码\3. 自动化集成源码\3-3. 自动化集成V3.0\AutomationIntegration\ManagePlatform\bin\Release\Telerik.WinControls.Scheduler.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.UI">
+      <HintPath>E:\项目\M05MES\项目源码\3. 自动化集成源码\3-3. 自动化集成V3.0\AutomationIntegration\ManagePlatform\bin\Release\Telerik.WinControls.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.UI.Design">
+      <HintPath>E:\项目\M05MES\项目源码\3. 自动化集成源码\3-3. 自动化集成V3.0\AutomationIntegration\ManagePlatform\bin\Release\Telerik.WinControls.UI.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="TelerikCommon">
+      <HintPath>E:\项目\M05MES\项目源码\3. 自动化集成源码\3-3. 自动化集成V3.0\AutomationIntegration\ManagePlatform\bin\Release\TelerikCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="TelerikData">
+      <HintPath>E:\项目\M05MES\项目源码\3. 自动化集成源码\3-3. 自动化集成V3.0\AutomationIntegration\ManagePlatform\bin\Release\TelerikData.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigMgr\Define\FrmDictionaryItem.cs" />
+    <Compile Include="ConfigMgr\Define\FrmDictionaryItem.Designer.cs">
+      <DependentUpon>FrmDictionaryItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigMgr\OPR\FrmAssignRight.cs" />
+    <Compile Include="ConfigMgr\OPR\FrmAssignRight.Designer.cs">
+      <DependentUpon>FrmAssignRight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigMgr\OPR\FrmSystemFunc.cs" />
+    <Compile Include="ConfigMgr\OPR\FrmSystemFunc.Designer.cs">
+      <DependentUpon>FrmSystemFunc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigMgr\OPR\FrmSystemFuncAssignGroup.cs" />
+    <Compile Include="ConfigMgr\OPR\FrmSystemFuncAssignGroup.Designer.cs">
+      <DependentUpon>FrmSystemFuncAssignGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigMgr\OPR\FrmSystemFuncCommand.cs" />
+    <Compile Include="ConfigMgr\OPR\FrmSystemFuncCommand.Designer.cs">
+      <DependentUpon>FrmSystemFuncCommand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigMgr\OPR\FrmSystemFuncGroup.cs" />
+    <Compile Include="ConfigMgr\OPR\FrmSystemFuncGroup.Designer.cs">
+      <DependentUpon>FrmSystemFuncGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigMgr\OPR\FrmSystemUser.cs" />
+    <Compile Include="ConfigMgr\OPR\FrmSystemUser.Designer.cs">
+      <DependentUpon>FrmSystemUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigMgr\OPR\FrmSystemUserAssignGroup.cs" />
+    <Compile Include="ConfigMgr\OPR\FrmSystemUserAssignGroup.Designer.cs">
+      <DependentUpon>FrmSystemUserAssignGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigMgr\OPR\FrmSystemUserGroup.cs" />
+    <Compile Include="ConfigMgr\OPR\FrmSystemUserGroup.Designer.cs">
+      <DependentUpon>FrmSystemUserGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs" />
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMainClient.cs" />
+    <Compile Include="FrmMainClient.Designer.cs">
+      <DependentUpon>FrmMainClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UICommon\AppSetting.cs" />
+    <Compile Include="UICommon\Control\FastDropDownList.cs" />
+    <Compile Include="UICommon\Control\FastDropDownList.Designer.cs">
+      <DependentUpon>FastDropDownList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICommon\Control\FastGridView.cs" />
+    <Compile Include="UICommon\Control\FastGridViewCheckBoxColumn.cs" />
+    <Compile Include="UICommon\Control\glDropDownCheckedListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UICommon\Control\glDropDownCheckedListBox.Designer.cs">
+      <DependentUpon>glDropDownCheckedListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICommon\Control\PopupComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UICommon\Control\PopupComboBox.Designer.cs">
+      <DependentUpon>PopupComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICommon\Control\UiLog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICommon\Control\UiLog.Designer.cs">
+      <DependentUpon>UiLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICommon\CSICSV.cs" />
+    <Compile Include="UICommon\FrmBase.cs" />
+    <Compile Include="UICommon\FrmBase.Designer.cs">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICommon\FrmBaseData.cs" />
+    <Compile Include="UICommon\FrmBaseData.Designer.cs">
+      <DependentUpon>FrmBaseData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICommon\FrmBaseEquipment.cs" />
+    <Compile Include="UICommon\FrmBaseEquipment.Designer.cs">
+      <DependentUpon>FrmBaseEquipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICommon\FrmBaseMaterial.cs" />
+    <Compile Include="UICommon\FrmBaseMaterial.Designer.cs">
+      <DependentUpon>FrmBaseMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICommon\FrmBasePrint.cs" />
+    <Compile Include="UICommon\FrmBasePrint.Designer.cs">
+      <DependentUpon>FrmBasePrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICommon\FrmBaseQuery.cs" />
+    <Compile Include="UICommon\FrmBaseQuery.Designer.cs">
+      <DependentUpon>FrmBaseQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICommon\FrmBaseSelect.cs" />
+    <Compile Include="UICommon\FrmBaseSelect.Designer.cs">
+      <DependentUpon>FrmBaseSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICommon\FrmChangePassword.cs" />
+    <Compile Include="UICommon\FrmChangePassword.Designer.cs">
+      <DependentUpon>FrmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICommon\FrmShowHistoryMessage.cs" />
+    <Compile Include="UICommon\FrmShowHistoryMessage.Designer.cs">
+      <DependentUpon>FrmShowHistoryMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICommon\FrmSimpleBaseData.cs" />
+    <Compile Include="UICommon\FrmSimpleBaseData.Designer.cs">
+      <DependentUpon>FrmSimpleBaseData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICommon\GloableData.cs" />
+    <Compile Include="UICommon\Localization\FastRadDockLocalizationProvider.cs" />
+    <Compile Include="UICommon\Localization\FastRadGridLocalizationProvider.cs" />
+    <Compile Include="UICommon\Localization\FastRadMessageLocalizationProvider.cs" />
+    <Compile Include="UICommon\Localization\LocalizationManager.cs" />
+    <Compile Include="UICommon\Logger.cs" />
+    <Compile Include="UICommon\ProcessHelper.cs" />
+    <Compile Include="UICommon\RightMenuUI.cs" />
+    <Compile Include="UICommon\UI.cs" />
+    <EmbeddedResource Include="ConfigMgr\Define\FrmDictionaryItem.resx">
+      <DependentUpon>FrmDictionaryItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigMgr\OPR\FrmAssignRight.resx">
+      <DependentUpon>FrmAssignRight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigMgr\OPR\FrmSystemFunc.resx">
+      <DependentUpon>FrmSystemFunc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigMgr\OPR\FrmSystemFuncAssignGroup.resx">
+      <DependentUpon>FrmSystemFuncAssignGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigMgr\OPR\FrmSystemFuncCommand.resx">
+      <DependentUpon>FrmSystemFuncCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigMgr\OPR\FrmSystemFuncGroup.resx">
+      <DependentUpon>FrmSystemFuncGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigMgr\OPR\FrmSystemUser.resx">
+      <DependentUpon>FrmSystemUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigMgr\OPR\FrmSystemUserAssignGroup.resx">
+      <DependentUpon>FrmSystemUserAssignGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigMgr\OPR\FrmSystemUserGroup.resx">
+      <DependentUpon>FrmSystemUserGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMainClient.resx">
+      <DependentUpon>FrmMainClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UICommon\Control\UiLog.resx">
+      <DependentUpon>UiLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICommon\FrmBase.resx">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICommon\FrmBaseData.resx">
+      <DependentUpon>FrmBaseData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICommon\FrmBaseEquipment.resx">
+      <DependentUpon>FrmBaseEquipment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICommon\FrmBaseMaterial.resx">
+      <DependentUpon>FrmBaseMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICommon\FrmBasePrint.resx">
+      <DependentUpon>FrmBasePrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICommon\FrmBaseQuery.resx">
+      <DependentUpon>FrmBaseQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICommon\FrmBaseSelect.resx">
+      <DependentUpon>FrmBaseSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICommon\FrmChangePassword.resx">
+      <DependentUpon>FrmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICommon\FrmShowHistoryMessage.resx">
+      <DependentUpon>FrmShowHistoryMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICommon\FrmSimpleBaseData.resx">
+      <DependentUpon>FrmSimpleBaseData.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="ConfigMgr\App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TelerikWinformBase\TelerikWinformBase.csproj">
+      <Project>{f71d7221-2fbb-4440-b3fe-70f35e683f42}</Project>
+      <Name>TelerikWinformBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\add.png" />
+    <Content Include="images\automation.ico" />
+    <Content Include="images\background.gif" />
+    <Content Include="images\bg.jpg" />
+    <Content Include="images\cancel.png" />
+    <Content Include="images\close.png" />
+    <Content Include="images\confirm.png" />
+    <Content Include="images\delete.png" />
+    <Content Include="images\edit.png" />
+    <Content Include="images\export.png" />
+    <Content Include="images\help.png" />
+    <Content Include="images\import.png" />
+    <Content Include="images\info.png" />
+    <Content Include="images\print.png" />
+    <Content Include="images\query.png" />
+    <Content Include="images\refresh.png" />
+    <Content Include="images\save.png" />
+    <Content Include="images\Tick.ico" />
+    <Content Include="Resources\cancel.png" />
+    <Content Include="Resources\cancel1.png" />
+    <Content Include="Resources\cancelBtn.png" />
+    <Content Include="Resources\cancelBtn1.png" />
+    <Content Include="Resources\Error.png" />
+    <Content Include="Resources\Error1.png" />
+    <Content Include="Resources\export.png" />
+    <Content Include="Resources\export1.png" />
+    <Content Include="Resources\exportall.png" />
+    <Content Include="Resources\exportall1.png" />
+    <Content Include="Resources\Info.png" />
+    <Content Include="Resources\Info1.png" />
+    <Content Include="Resources\login.jpg" />
+    <Content Include="Resources\login1.jpg" />
+    <Content Include="Resources\loginBg01.jpg" />
+    <Content Include="Resources\loginBg011.jpg" />
+    <Content Include="Resources\loginBtn.png" />
+    <Content Include="Resources\loginBtn1.png" />
+    <Content Include="Resources\Logo.png" />
+    <Content Include="Resources\Logo1.png" />
+    <Content Include="Resources\moveFirst.png" />
+    <Content Include="Resources\moveFirst1.png" />
+    <Content Include="Resources\moveLast.png" />
+    <Content Include="Resources\moveLast1.png" />
+    <Content Include="Resources\next.png" />
+    <Content Include="Resources\next1.png" />
+    <Content Include="Resources\Password.png" />
+    <Content Include="Resources\Password1.png" />
+    <Content Include="Resources\previous.png" />
+    <Content Include="Resources\previous1.png" />
+    <Content Include="Resources\select.png" />
+    <Content Include="Resources\select1.png" />
+    <Content Include="Resources\submit.png" />
+    <Content Include="Resources\submit1.png" />
+    <Content Include="Resources\Top.png" />
+    <Content Include="Resources\Top1.png" />
+    <Content Include="Resources\UserID.png" />
+    <Content Include="Resources\UserID1.png" />
+    <Content Include="Resources\Warn.png" />
+    <Content Include="Resources\Warn1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,18 @@
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\bin\Release\SapBatchTool.exe.config
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\bin\Release\SapBatchTool.exe
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\bin\Release\SapBatchTool.pdb
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\obj\Release\SapBatchTool.Form1.resources
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\obj\Release\SapBatchTool.Properties.Resources.resources
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\obj\Release\SapBatchTool.csproj.GenerateResource.Cache
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\obj\Release\SapBatchTool.exe
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\obj\Release\SapBatchTool.pdb
+D:\我的项目\MyProgram\SapBatchTool\SapBatchTool\bin\Release\SapBatchTool.exe.config
+D:\我的项目\MyProgram\SapBatchTool\SapBatchTool\bin\Release\SapBatchTool.exe
+D:\我的项目\MyProgram\SapBatchTool\SapBatchTool\bin\Release\SapBatchTool.pdb
+D:\我的项目\MyProgram\SapBatchTool\SapBatchTool\obj\Release\SapBatchTool.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\SapBatchTool\SapBatchTool\obj\Release\SapBatchTool.Form1.resources
+D:\我的项目\MyProgram\SapBatchTool\SapBatchTool\obj\Release\SapBatchTool.Form2.resources
+D:\我的项目\MyProgram\SapBatchTool\SapBatchTool\obj\Release\SapBatchTool.Properties.Resources.resources
+D:\我的项目\MyProgram\SapBatchTool\SapBatchTool\obj\Release\SapBatchTool.csproj.GenerateResource.Cache
+D:\我的项目\MyProgram\SapBatchTool\SapBatchTool\obj\Release\SapBatchTool.exe
+D:\我的项目\MyProgram\SapBatchTool\SapBatchTool\obj\Release\SapBatchTool.pdb

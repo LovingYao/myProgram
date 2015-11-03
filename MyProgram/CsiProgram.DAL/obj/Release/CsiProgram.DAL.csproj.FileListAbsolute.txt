@@ -1,0 +1,13 @@
+D:\我的项目\MyProgram\CsiProgram.DAL\obj\Release\CsiProgram.DAL.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\CsiProgram.DAL\bin\Release\CsiProgram.DAL.dll
+D:\我的项目\MyProgram\CsiProgram.DAL\bin\Release\CsiProgram.DAL.pdb
+D:\我的项目\MyProgram\CsiProgram.DAL\bin\Release\CsiProgram.EFModel.dll
+D:\我的项目\MyProgram\CsiProgram.DAL\bin\Release\CsiProgram.Entity.dll
+D:\我的项目\MyProgram\CsiProgram.DAL\bin\Release\Dapper NET35.dll
+D:\我的项目\MyProgram\CsiProgram.DAL\bin\Release\EntityFramework.dll
+D:\我的项目\MyProgram\CsiProgram.DAL\bin\Release\CsiProgram.EFModel.pdb
+D:\我的项目\MyProgram\CsiProgram.DAL\bin\Release\CsiProgram.Entity.pdb
+D:\我的项目\MyProgram\CsiProgram.DAL\bin\Release\EntityFramework.xml
+D:\我的项目\MyProgram\CsiProgram.DAL\bin\Release\zh-Hans\EntityFramework.resources.dll
+D:\我的项目\MyProgram\CsiProgram.DAL\obj\Release\CsiProgram.DAL.dll
+D:\我的项目\MyProgram\CsiProgram.DAL\obj\Release\CsiProgram.DAL.pdb

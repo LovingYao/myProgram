@@ -1,0 +1,10 @@
+c:\users\bin.cao\documents\visual studio 2012\Projects\FontChangeTool\FontChangeTool\bin\Debug\FontChangeTool.exe.config
+c:\users\bin.cao\documents\visual studio 2012\Projects\FontChangeTool\FontChangeTool\bin\Debug\FontChangeTool.exe
+c:\users\bin.cao\documents\visual studio 2012\Projects\FontChangeTool\FontChangeTool\bin\Debug\FontChangeTool.pdb
+c:\users\bin.cao\documents\visual studio 2012\Projects\FontChangeTool\FontChangeTool\obj\Debug\FontChangeTool.csprojResolveAssemblyReference.cache
+c:\users\bin.cao\documents\visual studio 2012\Projects\FontChangeTool\FontChangeTool\obj\Debug\FontChangeTool.csproj.ResolveComReference.cache
+c:\users\bin.cao\documents\visual studio 2012\Projects\FontChangeTool\FontChangeTool\obj\Debug\FontChangeTool.Form1.resources
+c:\users\bin.cao\documents\visual studio 2012\Projects\FontChangeTool\FontChangeTool\obj\Debug\FontChangeTool.Properties.Resources.resources
+c:\users\bin.cao\documents\visual studio 2012\Projects\FontChangeTool\FontChangeTool\obj\Debug\FontChangeTool.csproj.GenerateResource.Cache
+c:\users\bin.cao\documents\visual studio 2012\Projects\FontChangeTool\FontChangeTool\obj\Debug\FontChangeTool.exe
+c:\users\bin.cao\documents\visual studio 2012\Projects\FontChangeTool\FontChangeTool\obj\Debug\FontChangeTool.pdb

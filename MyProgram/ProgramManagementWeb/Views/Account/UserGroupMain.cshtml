@@ -1,0 +1,103 @@
+﻿@{
+    ViewBag.Title = "UserGroupMain";
+    Layout = "~/Views/Shared/_easyui.cshtml";
+}
+
+<body style="padding-bottom:0px; padding-left:5px;padding-right:5px;padding-top:5px">
+    <table id="dg" title=" " class="easyui-datagrid" style="width: 700px; height: 600px"
+           url="/Account/UsersReadUsersSelect"
+           toolbar="#toolbar"
+           pagination="true"
+           pagesize="20"
+           rownumbers="true"
+           fitcolumns="true"
+           singleselect="true" fit="true"
+           data-options="width:'auto'
+
+           ">
+        <thead>
+            <tr>
+                <th data-options=" field:'ID',width:14" rowspan="2">ID</th>
+                <th data-options="field:'ROLE_NAME',width:30" rowspan="2">角色名称</th>
+                <th data-options="field:'ROLE_DESC',width:100" rowspan="2">角色描述</th>
+                <th colspan="9">操作</th>
+            </tr>
+            <tr>
+                <th align="center"><a href="javascript:void(0);" onclick="updateRole(1)">编辑</a></th>
+                <th align="center"><a href="javascript:void(0);" onclick="authorizeRole(1)">角色授权</a></th>
+				<th align="center"><a href="javascript:void(0);" onclick="authorizeMenu(1)" >菜单授权</a></th>
+				<th align="center"><a href="javascript:void(0);" onclick="delRole(1);">删除</a></th>
+            </tr>
+        </thead>
+    </table>
+    <div id="toolbar">
+        
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-add" plain="true" onclick="newUser()">新增角色</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-remove" plain="true" onclick="destroyUser()">删除角色</a>
+    </div>
+
+
+    <div id="dlg" class="easyui-dialog" style="width:400px;height:400px;padding:10px 20px"
+         closed="true" buttons="#dlg-buttons"
+         modal="true">
+        <div class="ftitle">用户信息</div>
+        <form id="fm" method="post" novalidate>
+
+            <div class="fitem">
+                <label>登录名:</label>
+                <input id="UserName" name="UserName" class="easyui-validatebox" required="true">
+            </div>
+            <div class="fitem">
+                <label>密码:</label>
+                <input name="UserPWD" class="easyui-validatebox" required="true">
+            </div>
+            <div class="fitem">
+                <label>确认密码:</label>
+                <input name="UserPWDsure" class="easyui-validatebox" required="true">
+            </div>
+            <div class="fitem">
+                <label>邮箱:</label>
+                <input name="UserEmail" class="easyui-validatebox" required="true" validtype="email">
+            </div>
+            <div class="fitem">
+                <label>昵称:</label>
+                <input name="NickName" class="easyui-validatebox" required="true">
+            </div>
+            
+            <div class="fitem">
+                <label>电话:</label>
+                <input name="UserPhonenumber" class="easyui-validatebox" required="true">
+            </div>
+
+        </form>
+    </div>
+    <div id="dlg-buttons">
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-ok" onclick="saveUser()">添加</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-cancel" onclick="javascript:$('#dlg').dialog('close')">关闭</a>
+    </div>
+    <script type="text/javascript" src="@Url.Content("~/Content/LADScript/UserMain.js")"></script>
+    <style type="text/css">
+        #fm {
+            margin: 0;
+            padding: 10px 30px;
+        }
+
+        .ftitle {
+            font-size: 14px;
+            font-weight: bold;
+            padding: 5px 0;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .fitem {
+            margin-bottom: 5px;
+        }
+
+            .fitem label {
+                display: inline-block;
+                width: 80px;
+            }
+    </style>
+</body>
+

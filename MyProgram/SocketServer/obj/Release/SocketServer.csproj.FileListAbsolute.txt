@@ -1,0 +1,9 @@
+D:\我的项目\MyProgram\SocketServer\bin\Release\SocketServer.exe.config
+D:\我的项目\MyProgram\SocketServer\bin\Release\SocketServer.exe
+D:\我的项目\MyProgram\SocketServer\bin\Release\SocketServer.pdb
+D:\我的项目\MyProgram\SocketServer\obj\Release\SocketServer.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\SocketServer\obj\Release\SocketServer.Form1.resources
+D:\我的项目\MyProgram\SocketServer\obj\Release\SocketServer.Properties.Resources.resources
+D:\我的项目\MyProgram\SocketServer\obj\Release\SocketServer.csproj.GenerateResource.Cache
+D:\我的项目\MyProgram\SocketServer\obj\Release\SocketServer.exe
+D:\我的项目\MyProgram\SocketServer\obj\Release\SocketServer.pdb

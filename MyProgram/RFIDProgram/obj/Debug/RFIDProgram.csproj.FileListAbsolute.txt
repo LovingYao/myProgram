@@ -1,0 +1,81 @@
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\RFIDProgram.exe.config
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\RFIDProgram.exe
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\RFIDProgram.pdb
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\AutoMapper.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\log4net.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\Telerik.WinControls.ChartView.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\Telerik.WinControls.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\Telerik.WinControls.GridView.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\Telerik.WinControls.RadChart.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\Telerik.WinControls.RadDock.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\Telerik.WinControls.RadMarkupEditor.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\Telerik.WinControls.Scheduler.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\Telerik.WinControls.UI.Design.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\Telerik.WinControls.UI.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\TelerikCommon.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\TelerikData.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\TelerikWinformBase.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\Dapper NET35.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\Castle.Core.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Debug\TelerikWinformBase.pdb
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.csprojResolveAssemblyReference.cache
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmDictionaryItem.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmAssignRight.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmSystemFunc.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmSystemFuncAssignGroup.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmSystemFuncCommand.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmSystemFuncGroup.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmSystemUser.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmSystemUserAssignGroup.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmSystemUserGroup.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmLogin.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmMainClient.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.Properties.Resources.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.UiLog.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmBase.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmBaseData.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmBaseEquipment.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmBaseMaterial.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmBasePrint.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmBaseQuery.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmBaseSelect.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmChangePassword.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmShowHistoryMessage.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmSimpleBaseData.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.csproj.GenerateResource.Cache
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.exe
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.pdb
+D:\我的项目\MyProgram\RFIDProgram\bin\Debug\RFIDProgram.exe.config
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.exe
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.pdb
+D:\我的项目\MyProgram\RFIDProgram\bin\Debug\RFIDProgram.exe
+D:\我的项目\MyProgram\RFIDProgram\bin\Debug\RFIDProgram.pdb
+D:\我的项目\MyProgram\RFIDProgram\bin\Debug\TelerikWinformBase.dll
+D:\我的项目\MyProgram\RFIDProgram\bin\Debug\Dapper NET35.dll
+D:\我的项目\MyProgram\RFIDProgram\bin\Debug\Castle.Core.dll
+D:\我的项目\MyProgram\RFIDProgram\bin\Debug\TelerikWinformBase.pdb
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmDictionaryItem.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmAssignRight.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmSystemFunc.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmSystemFuncAssignGroup.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmSystemFuncCommand.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmSystemFuncGroup.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmSystemUser.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmSystemUserAssignGroup.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmSystemUserGroup.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmLogin.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmMainClient.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.Properties.Resources.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.UiLog.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmBase.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmBaseData.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmBaseEquipment.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmBaseMaterial.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmBasePrint.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmBaseQuery.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmBaseSelect.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmChangePassword.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmShowHistoryMessage.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.FrmSimpleBaseData.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Debug\RFIDProgram.csproj.GenerateResource.Cache

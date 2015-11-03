@@ -1,0 +1,8 @@
+D:\我的项目\MyProgram\DBFactory\bin\Release\DBFactory.dll
+D:\我的项目\MyProgram\DBFactory\bin\Release\DBFactory.pdb
+D:\我的项目\MyProgram\DBFactory\bin\Release\MySql.Data.Entity.EF5.dll
+D:\我的项目\MyProgram\DBFactory\bin\Release\MySql.Data.Entity.EF6.dll
+D:\我的项目\MyProgram\DBFactory\obj\Release\DBFactory.dll
+D:\我的项目\MyProgram\DBFactory\obj\Release\DBFactory.pdb
+D:\我的项目\MyProgram\DBFactory\bin\Release\MySql.Data.dll
+D:\我的项目\MyProgram\DBFactory\obj\Release\DBFactory.csprojResolveAssemblyReference.cache

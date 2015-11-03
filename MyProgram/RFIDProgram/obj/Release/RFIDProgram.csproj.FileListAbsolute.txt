@@ -1,0 +1,51 @@
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\bin\Release\RFIDProgram.exe.config
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.csprojResolveAssemblyReference.cache
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmDictionaryItem.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmAssignRight.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmSystemFunc.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmSystemFuncAssignGroup.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmSystemFuncCommand.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmSystemFuncGroup.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmSystemUser.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmSystemUserAssignGroup.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmSystemUserGroup.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmLogin.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmMainClient.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.Properties.Resources.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.UiLog.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmBase.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmBaseData.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmBaseEquipment.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmBaseMaterial.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmBasePrint.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmBaseQuery.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmBaseSelect.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmChangePassword.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmShowHistoryMessage.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmSimpleBaseData.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\RFIDProgram\obj\Release\RFIDProgram.csproj.GenerateResource.Cache
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmDictionaryItem.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmAssignRight.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmSystemFunc.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmSystemFuncAssignGroup.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmSystemFuncCommand.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmSystemFuncGroup.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmSystemUser.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmSystemUserAssignGroup.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmSystemUserGroup.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmLogin.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmMainClient.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.Properties.Resources.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.UiLog.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmBase.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmBaseData.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmBaseEquipment.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmBaseMaterial.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmBasePrint.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmBaseQuery.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmBaseSelect.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmChangePassword.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmShowHistoryMessage.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.FrmSimpleBaseData.resources
+D:\我的项目\MyProgram\RFIDProgram\obj\Release\RFIDProgram.csproj.GenerateResource.Cache

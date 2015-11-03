@@ -1,0 +1,14 @@
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTools\bin\Release\MyTools.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTools\bin\Release\MyTools.pdb
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTools\obj\Release\MyTools.csprojResolveAssemblyReference.cache
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTools\obj\Release\MyTools.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTools\obj\Release\MyTools.pdb
+D:\我的项目\MyProgram\MyTools\bin\Release\MyTools.dll
+D:\我的项目\MyProgram\MyTools\bin\Release\MyTools.pdb
+D:\我的项目\MyProgram\MyTools\obj\Release\MyTools.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\MyTools\obj\Release\MyTools.dll
+D:\我的项目\MyProgram\MyTools\obj\Release\MyTools.pdb
+D:\我的项目\MyProgram\MyTools\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\我的项目\MyProgram\MyTools\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\我的项目\MyProgram\MyTools\bin\Release\OpenSmtp.dll
+D:\我的项目\MyProgram\MyTools\bin\Release\System.Data.SQLite.DLL

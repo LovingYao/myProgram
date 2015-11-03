@@ -1,0 +1,9 @@
+D:\我的项目\MyProgram\CsiProgram.EFModel\bin\Release\CsiProgram.EFModel.dll.config
+D:\我的项目\MyProgram\CsiProgram.EFModel\bin\Release\CsiProgram.EFModel.dll
+D:\我的项目\MyProgram\CsiProgram.EFModel\bin\Release\CsiProgram.EFModel.pdb
+D:\我的项目\MyProgram\CsiProgram.EFModel\bin\Release\EntityFramework.dll
+D:\我的项目\MyProgram\CsiProgram.EFModel\bin\Release\EntityFramework.xml
+D:\我的项目\MyProgram\CsiProgram.EFModel\bin\Release\zh-Hans\EntityFramework.resources.dll
+D:\我的项目\MyProgram\CsiProgram.EFModel\obj\Release\CsiProgram.EFModel.dll
+D:\我的项目\MyProgram\CsiProgram.EFModel\obj\Release\CsiProgram.EFModel.pdb
+D:\我的项目\MyProgram\CsiProgram.EFModel\obj\Release\CsiProgram.EFModel.csprojResolveAssemblyReference.cache

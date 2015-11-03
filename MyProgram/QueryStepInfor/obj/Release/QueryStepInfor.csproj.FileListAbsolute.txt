@@ -1,0 +1,18 @@
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\bin\Release\QueryStepInfor.exe.config
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\bin\Release\QueryStepInfor.exe
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\bin\Release\QueryStepInfor.pdb
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\bin\Release\MyXls.SL2.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\obj\Release\QueryStepInfor.Form1.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\obj\Release\QueryStepInfor.Properties.Resources.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\obj\Release\QueryStepInfor.csproj.GenerateResource.Cache
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\obj\Release\QueryStepInfor.exe
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\QueryStepInfor\obj\Release\QueryStepInfor.pdb
+D:\我的项目\MyProgram\QueryStepInfor\bin\Release\QueryStepInfor.exe.config
+D:\我的项目\MyProgram\QueryStepInfor\bin\Release\QueryStepInfor.exe
+D:\我的项目\MyProgram\QueryStepInfor\bin\Release\QueryStepInfor.pdb
+D:\我的项目\MyProgram\QueryStepInfor\obj\Release\QueryStepInfor.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\QueryStepInfor\obj\Release\QueryStepInfor.Form1.resources
+D:\我的项目\MyProgram\QueryStepInfor\obj\Release\QueryStepInfor.Properties.Resources.resources
+D:\我的项目\MyProgram\QueryStepInfor\obj\Release\QueryStepInfor.csproj.GenerateResource.Cache
+D:\我的项目\MyProgram\QueryStepInfor\obj\Release\QueryStepInfor.exe
+D:\我的项目\MyProgram\QueryStepInfor\obj\Release\QueryStepInfor.pdb

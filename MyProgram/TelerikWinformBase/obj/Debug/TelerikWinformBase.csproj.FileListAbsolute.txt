@@ -1,0 +1,5 @@
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\TelerikWinformBase\bin\Debug\TelerikWinformBase.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\TelerikWinformBase\bin\Debug\TelerikWinformBase.pdb
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\TelerikWinformBase\bin\Debug\Dapper NET35.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\TelerikWinformBase\obj\Debug\TelerikWinformBase.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\TelerikWinformBase\obj\Debug\TelerikWinformBase.pdb

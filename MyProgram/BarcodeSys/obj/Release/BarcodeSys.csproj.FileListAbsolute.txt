@@ -1,0 +1,9 @@
+D:\我的项目\MyProgram\BarcodeSys\bin\Release\BarcodeSys.exe
+D:\我的项目\MyProgram\BarcodeSys\bin\Release\BarcodeSys.pdb
+D:\我的项目\MyProgram\BarcodeSys\obj\Release\BarcodeSys.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\BarcodeSys\obj\Release\BarcodeSys.FormListenMain.resources
+D:\我的项目\MyProgram\BarcodeSys\obj\Release\BarcodeSys.FormLogin.resources
+D:\我的项目\MyProgram\BarcodeSys\obj\Release\BarcodeSys.Properties.Resources.resources
+D:\我的项目\MyProgram\BarcodeSys\obj\Release\BarcodeSys.csproj.GenerateResource.Cache
+D:\我的项目\MyProgram\BarcodeSys\obj\Release\BarcodeSys.exe
+D:\我的项目\MyProgram\BarcodeSys\obj\Release\BarcodeSys.pdb

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F71D7221-2FBB-4440-B3FE-70F35E683F42}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TelerikWinformBase</RootNamespace>
+    <AssemblyName>TelerikWinformBase</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper NET35">
+      <HintPath>..\..\..\项目\PMS\项目源码\CsiProgramManagement2.0\CsiProgram.DAL\bin\Debug\Dapper NET35.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\DictionaryInfoBll.cs" />
+    <Compile Include="BLL\DictionaryItemBll.cs" />
+    <Compile Include="BLL\RightBll.cs" />
+    <Compile Include="BLL\RightFunctionBll.cs" />
+    <Compile Include="BLL\RightFunctionGroupBll.cs" />
+    <Compile Include="BLL\RightLkFunctionCommandBll.cs" />
+    <Compile Include="BLL\RightLkFunctionGroupBll.cs" />
+    <Compile Include="BLL\RightLkUserGroupBll.cs" />
+    <Compile Include="BLL\RightUserBll.cs" />
+    <Compile Include="BLL\RightUserGroupBll.cs" />
+    <Compile Include="BLL\ViewBll.cs" />
+    <Compile Include="Common\CryptoHelper.cs" />
+    <Compile Include="Common\Sysid.cs" />
+    <Compile Include="DAL\Conn.cs" />
+    <Compile Include="DAL\Dapper.cs" />
+    <Compile Include="DAL\DictionaryInfoDal.cs" />
+    <Compile Include="DAL\DictionaryItemDal.cs" />
+    <Compile Include="DAL\QueryConditionBuilder.cs" />
+    <Compile Include="DAL\RightDal.cs" />
+    <Compile Include="DAL\RightFunctionDal.cs" />
+    <Compile Include="DAL\RightFunctionGroupDal.cs" />
+    <Compile Include="DAL\RightLkFunctionCommandDal.cs" />
+    <Compile Include="DAL\RightLkFunctionGroupDal.cs" />
+    <Compile Include="DAL\RightLkUserGroupDal.cs" />
+    <Compile Include="DAL\RightUserDal.cs" />
+    <Compile Include="DAL\RightUserGroupDal.cs" />
+    <Compile Include="DAL\ViewDal.cs" />
+    <Compile Include="Model\CustomMessage.cs" />
+    <Compile Include="Model\DictionaryInfo.cs" />
+    <Compile Include="Model\DictionaryItem.cs" />
+    <Compile Include="Model\Enums.cs" />
+    <Compile Include="Model\QueryCondition.cs" />
+    <Compile Include="Model\Right.cs" />
+    <Compile Include="Model\RightFunction.cs" />
+    <Compile Include="Model\RightFunctionGroup.cs" />
+    <Compile Include="Model\RightLkFunctionCommand.cs" />
+    <Compile Include="Model\RightLkFunctionGroup.cs" />
+    <Compile Include="Model\RightLkUserGroup.cs" />
+    <Compile Include="Model\RightMenu.cs" />
+    <Compile Include="Model\RightUser.cs" />
+    <Compile Include="Model\RightUserGroup.cs" />
+    <Compile Include="Model\ViewRight.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

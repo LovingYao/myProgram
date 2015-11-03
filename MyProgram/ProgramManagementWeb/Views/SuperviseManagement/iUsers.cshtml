@@ -1,0 +1,126 @@
+﻿@{
+    ViewBag.Title = "iUsers";
+    Layout = "~/Views/Shared/_easyui.cshtml";
+}
+
+
+<body style="padding-bottom:0px; padding-left:5px;padding-right:5px;padding-top:5px">
+    <table id="dg" title=" " class="easyui-datagrid" style="width: 700px; height: 600px"
+           url="/SuperviseManagement/UsersReadUsersSelect"
+           toolbar="#toolbar"
+           pagination="true"
+           pagesize="20"
+           rownumbers="true"
+           fitcolumns="true"
+           singleselect="true" fit="true"
+           data-options="width:'auto'
+
+           ">
+        <thead>
+            <tr>
+                <th data-options=" field:'ID',width:14" rowspan="2">ID</th>
+                <th data-options="field:'UserName',width:30" rowspan="2">账号</th>
+                <th colspan="9">详细资料</th>
+            </tr>
+            <tr>
+                <th data-options="field:'UserEmail',width:50,align:'right'">信箱</th>
+                <th data-options="field:'Fullname',width:15,align:'right'">姓名</th>
+                <th data-options="field:'Sex',width:8,align:'right'">性别</th>
+                <th data-options="field:'UserCard',width:50,align:'right'">身份证号码</th>
+                <th data-options="field:'UserPhonenumber',width:38,align:'right'">手机</th>
+                <th data-options="field:'UserTel',width:38,align:'right'">座机</th>
+                <th data-options="field:'UserOICQ',width:38,align:'right'">QQ号码</th>
+                <th data-options="field:'Usertime',width:28,align:'right'">注册时间</th>
+                <th data-options="field:'UID',width:38,align:'right'">认证编号</th>
+            </tr>
+        </thead>
+    </table>
+    <div id="toolbar">
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-add" plain="true" onclick="newUser()">添加</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-edit" plain="true" onclick="editUser()">修改</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-remove" plain="true" onclick="destroyUser()">删除</a>
+    </div>
+
+
+    <div id="dlg" class="easyui-dialog" style="width:400px;height:400px;padding:10px 20px"
+         closed="true" buttons="#dlg-buttons"
+         modal="true">
+        <div class="ftitle">用户信息</div>
+        <form id="fm" method="post" novalidate>
+
+            <div class="fitem">
+                <label>账号:</label>
+                <input id="UserName" name="UserName" class="easyui-validatebox" required="true">
+            </div>
+            <div class="fitem">
+                <label>密码:</label>
+                <input name="UserPWD" class="easyui-validatebox" required="true">
+            </div>
+            <div class="fitem">
+                <label>信箱:</label>
+                <input name="UserEmail" class="easyui-validatebox" required="true" validtype="email">
+            </div>
+            <div class="fitem">
+                <label>姓名:</label>
+                <input name="Fullname" class="easyui-validatebox" required="true">
+            </div>
+            <div class="fitem">
+                <label>性别:</label>
+               <select name="Sex" id="cc" style="width:153px"></select>
+                <div id="sp">
+                    <div style="color:#99BBE8;background:#fafafa;padding:5px;">请选择所属性别</div>
+                    <input type="radio" name="lang" value="男"><span>男</span><br />
+                    <input type="radio" name="lang" value="女"><span>女</span><br />
+                    <input type="radio" name="lang" value="不男不女"><span>不男不女</span>
+                </div>
+            </div>
+            <div class="fitem">
+                <label>身份证号码:</label>
+                <input name="UserCard" class="easyui-validatebox" required="true">
+            </div>
+
+            <div class="fitem">
+                <label>手机:</label>
+                <input name="UserPhonenumber" class="easyui-validatebox" required="true">
+            </div>
+
+            <div class="fitem">
+                <label>座机:</label>
+                <input name="UserTel">
+            </div>
+            <div class="fitem">
+                <label>QQ号码:</label>
+                <input name="UserOICQ">
+            </div>
+
+        </form>
+    </div>
+    <div id="dlg-buttons">
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-ok" onclick="saveUser()">添加</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-cancel" onclick="javascript:$('#dlg').dialog('close')">关闭</a>
+    </div>
+    <script type="text/javascript" src="@Url.Content("~/Content/LADScript/iUsers.js")"></script>
+    <style type="text/css">
+        #fm {
+            margin: 0;
+            padding: 10px 30px;
+        }
+
+        .ftitle {
+            font-size: 14px;
+            font-weight: bold;
+            padding: 5px 0;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .fitem {
+            margin-bottom: 5px;
+        }
+
+            .fitem label {
+                display: inline-block;
+                width: 80px;
+            }
+    </style>
+</body>

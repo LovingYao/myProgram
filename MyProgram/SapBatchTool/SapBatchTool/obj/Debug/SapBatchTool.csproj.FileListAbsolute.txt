@@ -1,0 +1,8 @@
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\bin\Debug\SapBatchTool.exe.config
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\bin\Debug\SapBatchTool.exe
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\bin\Debug\SapBatchTool.pdb
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\obj\Debug\SapBatchTool.Form1.resources
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\obj\Debug\SapBatchTool.Properties.Resources.resources
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\obj\Debug\SapBatchTool.csproj.GenerateResource.Cache
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\obj\Debug\SapBatchTool.exe
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\obj\Debug\SapBatchTool.pdb

@@ -1,0 +1,22 @@
+D:\我的项目\MyProgram\CsiProgram.BLL\obj\Release\CsiProgram.BLL.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\CsiProgram.BLL.dll
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\CsiProgram.BLL.pdb
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\CsiProgram.DAL.dll
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\CsiProgram.DBFactory.dll
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\CsiProgram.EFModel.dll
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\CsiProgram.Entity.dll
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\CsiProgram.IBLL.dll
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\CsiProgram.IDAL.dll
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\Dapper NET35.dll
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\EntityFramework.dll
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\CsiProgram.DAL.pdb
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\CsiProgram.DBFactory.pdb
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\CsiProgram.EFModel.pdb
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\CsiProgram.Entity.pdb
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\CsiProgram.IBLL.pdb
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\CsiProgram.IDAL.pdb
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\EntityFramework.xml
+D:\我的项目\MyProgram\CsiProgram.BLL\obj\Release\CsiProgram.BLL.dll
+D:\我的项目\MyProgram\CsiProgram.BLL\obj\Release\CsiProgram.BLL.pdb
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\CsiProgram.EFDAL.dll
+D:\我的项目\MyProgram\CsiProgram.BLL\bin\Release\CsiProgram.EFDAL.pdb

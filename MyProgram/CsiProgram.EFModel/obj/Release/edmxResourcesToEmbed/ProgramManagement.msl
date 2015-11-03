@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CsiProgramManagementModelStoreContainer" CdmEntityContainer="CsiProgramManagementEntities">
+    <EntitySetMapping Name="T_CSI_PROJECT">
+      <EntityTypeMapping TypeName="CsiProgramManagementModel.T_CSI_PROJECT">
+        <MappingFragment StoreEntitySet="T_CSI_PROJECT">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PROJECT_NAME" ColumnName="PROJECT_NAME" />
+          <ScalarProperty Name="PROJECT_TYPE" ColumnName="PROJECT_TYPE" />
+          <ScalarProperty Name="PROJECT_STATUS" ColumnName="PROJECT_STATUS" />
+          <ScalarProperty Name="APPLY_USER" ColumnName="APPLY_USER" />
+          <ScalarProperty Name="ACCEPT_USER" ColumnName="ACCEPT_USER" />
+          <ScalarProperty Name="PLAN_STARTTIME" ColumnName="PLAN_STARTTIME" />
+          <ScalarProperty Name="PLAN_ENDTIME" ColumnName="PLAN_ENDTIME" />
+          <ScalarProperty Name="ACTUAL_STARTTIME" ColumnName="ACTUAL_STARTTIME" />
+          <ScalarProperty Name="ACTUAL_ENDTIME" ColumnName="ACTUAL_ENDTIME" />
+          <ScalarProperty Name="CREATED_ON" ColumnName="CREATED_ON" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_CSI_PROJECT_DETAIL">
+      <EntityTypeMapping TypeName="CsiProgramManagementModel.T_CSI_PROJECT_DETAIL">
+        <MappingFragment StoreEntitySet="T_CSI_PROJECT_DETAIL">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PROJECT_ID" ColumnName="PROJECT_ID" />
+          <ScalarProperty Name="PROJECT_PLANCOST" ColumnName="PROJECT_PLANCOST" />
+          <ScalarProperty Name="PROJECT_ACTUALCOST" ColumnName="PROJECT_ACTUALCOST" />
+          <ScalarProperty Name="BACKGROUND" ColumnName="BACKGROUND" />
+          <ScalarProperty Name="PLANWORKTIME" ColumnName="PLANWORKTIME" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="RESV01" ColumnName="RESV01" />
+          <ScalarProperty Name="RESV02" ColumnName="RESV02" />
+          <ScalarProperty Name="RESV03" ColumnName="RESV03" />
+          <ScalarProperty Name="RESV04" ColumnName="RESV04" />
+          <ScalarProperty Name="RESV05" ColumnName="RESV05" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_CSI_PROJECT_FILE">
+      <EntityTypeMapping TypeName="CsiProgramManagementModel.T_CSI_PROJECT_FILE">
+        <MappingFragment StoreEntitySet="T_CSI_PROJECT_FILE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PROJECT_ID" ColumnName="PROJECT_ID" />
+          <ScalarProperty Name="FILE_NAME" ColumnName="FILE_NAME" />
+          <ScalarProperty Name="FILE_TYPE" ColumnName="FILE_TYPE" />
+          <ScalarProperty Name="FILE_DESCRIPTION" ColumnName="FILE_DESCRIPTION" />
+          <ScalarProperty Name="CREATED_ON" ColumnName="CREATED_ON" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+          <ScalarProperty Name="MODIFIED_ON" ColumnName="MODIFIED_ON" />
+          <ScalarProperty Name="MODIFIED_BY" ColumnName="MODIFIED_BY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_CSI_PROJECT_MEMBER">
+      <EntityTypeMapping TypeName="CsiProgramManagementModel.T_CSI_PROJECT_MEMBER">
+        <MappingFragment StoreEntitySet="T_CSI_PROJECT_MEMBER">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PROJECT_ID" ColumnName="PROJECT_ID" />
+          <ScalarProperty Name="MEMBER_ID" ColumnName="MEMBER_ID" />
+          <ScalarProperty Name="MEMBER_NAME" ColumnName="MEMBER_NAME" />
+          <ScalarProperty Name="RESPONSIBLE" ColumnName="RESPONSIBLE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_CSI_PROJECTCOST_DETAIL">
+      <EntityTypeMapping TypeName="CsiProgramManagementModel.T_CSI_PROJECTCOST_DETAIL">
+        <MappingFragment StoreEntitySet="T_CSI_PROJECTCOST_DETAIL">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PROJECT_ID" ColumnName="PROJECT_ID" />
+          <ScalarProperty Name="COST_NAME" ColumnName="COST_NAME" />
+          <ScalarProperty Name="PRICE" ColumnName="PRICE" />
+          <ScalarProperty Name="QUANTITY" ColumnName="QUANTITY" />
+          <ScalarProperty Name="CURRENCY" ColumnName="CURRENCY" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_CSI_TASK">
+      <EntityTypeMapping TypeName="CsiProgramManagementModel.T_CSI_TASK">
+        <MappingFragment StoreEntitySet="T_CSI_TASK">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PROJECT_ID" ColumnName="PROJECT_ID" />
+          <ScalarProperty Name="TASK_NAME" ColumnName="TASK_NAME" />
+          <ScalarProperty Name="TASK_TYPE" ColumnName="TASK_TYPE" />
+          <ScalarProperty Name="TASK_STATUS" ColumnName="TASK_STATUS" />
+          <ScalarProperty Name="TASK_DESCRIPTION" ColumnName="TASK_DESCRIPTION" />
+          <ScalarProperty Name="TASK_PLANSTARTTIME" ColumnName="TASK_PLANSTARTTIME" />
+          <ScalarProperty Name="TASK_PLANENDTIME" ColumnName="TASK_PLANENDTIME" />
+          <ScalarProperty Name="TASK_ACTUALSTARTTIME" ColumnName="TASK_ACTUALSTARTTIME" />
+          <ScalarProperty Name="TASK_ACTUALENDTIME" ColumnName="TASK_ACTUALENDTIME" />
+          <ScalarProperty Name="CREATED_ON" ColumnName="CREATED_ON" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_CSI_TASK_DETAIL">
+      <EntityTypeMapping TypeName="CsiProgramManagementModel.T_CSI_TASK_DETAIL">
+        <MappingFragment StoreEntitySet="T_CSI_TASK_DETAIL">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="EXECUTOR" ColumnName="EXECUTOR" />
+          <ScalarProperty Name="CONTENTS" ColumnName="CONTENTS" />
+          <ScalarProperty Name="TROUBLES" ColumnName="TROUBLES" />
+          <ScalarProperty Name="WORKTIME" ColumnName="WORKTIME" />
+          <ScalarProperty Name="CREATED_ON" ColumnName="CREATED_ON" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_CSI_TASK_MEMBER">
+      <EntityTypeMapping TypeName="CsiProgramManagementModel.T_CSI_TASK_MEMBER">
+        <MappingFragment StoreEntitySet="T_CSI_TASK_MEMBER">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="MEMBER_ID" ColumnName="MEMBER_ID" />
+          <ScalarProperty Name="MEMBER_NAME" ColumnName="MEMBER_NAME" />
+          <ScalarProperty Name="REMARK" ColumnName="REMARK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_SYS_MENU">
+      <EntityTypeMapping TypeName="CsiProgramManagementModel.T_SYS_MENU">
+        <MappingFragment StoreEntitySet="T_SYS_MENU">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MENU_NAME" ColumnName="MENU_NAME" />
+          <ScalarProperty Name="MENU_TYPE" ColumnName="MENU_TYPE" />
+          <ScalarProperty Name="MENU_HREF" ColumnName="MENU_HREF" />
+          <ScalarProperty Name="PARENT_ID" ColumnName="PARENT_ID" />
+          <ScalarProperty Name="SORT" ColumnName="SORT" />
+          <ScalarProperty Name="IS_ACTIVE" ColumnName="IS_ACTIVE" />
+          <ScalarProperty Name="CREATED_ON" ColumnName="CREATED_ON" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_SYS_ROLE">
+      <EntityTypeMapping TypeName="CsiProgramManagementModel.T_SYS_ROLE">
+        <MappingFragment StoreEntitySet="T_SYS_ROLE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ROLE_NAME" ColumnName="ROLE_NAME" />
+          <ScalarProperty Name="ROLE_DESC" ColumnName="ROLE_DESC" />
+          <ScalarProperty Name="IS_ACTIVE" ColumnName="IS_ACTIVE" />
+          <ScalarProperty Name="CREATED_ON" ColumnName="CREATED_ON" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_SYS_ROLE_MENU">
+      <EntityTypeMapping TypeName="CsiProgramManagementModel.T_SYS_ROLE_MENU">
+        <MappingFragment StoreEntitySet="T_SYS_ROLE_MENU">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ROLE_ID" ColumnName="ROLE_ID" />
+          <ScalarProperty Name="MENU_ID" ColumnName="MENU_ID" />
+          <ScalarProperty Name="IS_ACTIVE" ColumnName="IS_ACTIVE" />
+          <ScalarProperty Name="CREATED_ON" ColumnName="CREATED_ON" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_SYS_USER">
+      <EntityTypeMapping TypeName="CsiProgramManagementModel.T_SYS_USER">
+        <MappingFragment StoreEntitySet="T_SYS_USER">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="USERNAME" ColumnName="USERNAME" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+          <ScalarProperty Name="NICKNAME" ColumnName="NICKNAME" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="CELLPHONE" ColumnName="CELLPHONE" />
+          <ScalarProperty Name="IS_ACTIVE" ColumnName="IS_ACTIVE" />
+          <ScalarProperty Name="CREATED_ON" ColumnName="CREATED_ON" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_SYS_USER_ROLE">
+      <EntityTypeMapping TypeName="CsiProgramManagementModel.T_SYS_USER_ROLE">
+        <MappingFragment StoreEntitySet="T_SYS_USER_ROLE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+          <ScalarProperty Name="ROLE_ID" ColumnName="ROLE_ID" />
+          <ScalarProperty Name="IS_ACTIVE" ColumnName="IS_ACTIVE" />
+          <ScalarProperty Name="CREATED_ON" ColumnName="CREATED_ON" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_BASE_STATUS">
+      <EntityTypeMapping TypeName="CsiProgramManagementModel.T_BASE_STATUS">
+        <MappingFragment StoreEntitySet="T_BASE_STATUS">
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+          <ScalarProperty Name="CREATED_ON" ColumnName="CREATED_ON" />
+          <ScalarProperty Name="GROUP_NAME" ColumnName="GROUP_NAME" />
+          <ScalarProperty Name="STATUS_NAME" ColumnName="STATUS_NAME" />
+          <ScalarProperty Name="STATUS_ID" ColumnName="STATUS_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

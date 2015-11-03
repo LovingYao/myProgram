@@ -1,0 +1,28 @@
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTestDemo\obj\Release\MyTestDemo.csprojResolveAssemblyReference.cache
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTestDemo\obj\Release\MyTestDemo.Form1.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTestDemo\obj\Release\MyTestDemo.Form2.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTestDemo\obj\Release\MyTestDemo.Properties.Resources.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTestDemo\obj\Release\MyTestDemo.csproj.GenerateResource.Cache
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTestDemo\bin\Release\MyTestDemo.exe
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTestDemo\bin\Release\MyTestDemo.pdb
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTestDemo\bin\Release\MyTools.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTestDemo\bin\Release\MyTools.pdb
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTestDemo\obj\Release\MyTestDemo.exe
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTestDemo\obj\Release\MyTestDemo.pdb
+D:\我的项目\MyProgram\MyTestDemo\bin\Release\MyTestDemo.exe
+D:\我的项目\MyProgram\MyTestDemo\bin\Release\MyTestDemo.pdb
+D:\我的项目\MyProgram\MyTestDemo\bin\Release\MyTools.dll
+D:\我的项目\MyProgram\MyTestDemo\bin\Release\MyTools.pdb
+D:\我的项目\MyProgram\MyTestDemo\obj\Release\MyTestDemo.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\MyTestDemo\obj\Release\MyTestDemo.Form1.resources
+D:\我的项目\MyProgram\MyTestDemo\obj\Release\MyTestDemo.Form2.resources
+D:\我的项目\MyProgram\MyTestDemo\obj\Release\MyTestDemo.Form3.resources
+D:\我的项目\MyProgram\MyTestDemo\obj\Release\MyTestDemo.Properties.Resources.resources
+D:\我的项目\MyProgram\MyTestDemo\obj\Release\MyTestDemo.csproj.GenerateResource.Cache
+D:\我的项目\MyProgram\MyTestDemo\obj\Release\MyTestDemo.exe
+D:\我的项目\MyProgram\MyTestDemo\obj\Release\MyTestDemo.pdb
+D:\我的项目\MyProgram\MyTestDemo\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\我的项目\MyProgram\MyTestDemo\bin\Release\System.Data.SQLite.dll
+D:\我的项目\MyProgram\MyTestDemo\bin\Release\OpenSmtp.dll
+D:\我的项目\MyProgram\MyTestDemo\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\我的项目\MyProgram\MyTestDemo\obj\Release\MyTestDemo.AlertWindows.resources

@@ -1,0 +1,23 @@
+c:\users\bin.cao\documents\visual studio 2012\Projects\MyProgram\MyTestDemo\bin\Debug\MyTestDemo.exe
+c:\users\bin.cao\documents\visual studio 2012\Projects\MyProgram\MyTestDemo\bin\Debug\MyTestDemo.pdb
+c:\users\bin.cao\documents\visual studio 2012\Projects\MyProgram\MyTestDemo\obj\Debug\MyTestDemo.csprojResolveAssemblyReference.cache
+c:\users\bin.cao\documents\visual studio 2012\Projects\MyProgram\MyTestDemo\obj\Debug\MyTestDemo.Properties.Resources.resources
+c:\users\bin.cao\documents\visual studio 2012\Projects\MyProgram\MyTestDemo\obj\Debug\MyTestDemo.csproj.GenerateResource.Cache
+c:\users\bin.cao\documents\visual studio 2012\Projects\MyProgram\MyTestDemo\obj\Debug\MyTestDemo.exe
+c:\users\bin.cao\documents\visual studio 2012\Projects\MyProgram\MyTestDemo\obj\Debug\MyTestDemo.pdb
+c:\users\bin.cao\documents\visual studio 2012\Projects\MyProgram\MyTestDemo\obj\Debug\MyTestDemo.Form1.resources
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTestDemo\bin\Debug\MyTools.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTestDemo\bin\Debug\MyTools.pdb
+D:\我的项目\MyProgram\MyTestDemo\obj\Debug\MyTestDemo.exe
+D:\我的项目\MyProgram\MyTestDemo\obj\Debug\MyTestDemo.pdb
+D:\我的项目\MyProgram\MyTestDemo\bin\Debug\MyTestDemo.exe
+D:\我的项目\MyProgram\MyTestDemo\bin\Debug\MyTestDemo.pdb
+D:\我的项目\MyProgram\MyTestDemo\bin\Debug\MySql.Data.dll
+D:\我的项目\MyProgram\MyTestDemo\bin\Debug\MyTools.dll
+D:\我的项目\MyProgram\MyTestDemo\bin\Debug\MyTools.pdb
+D:\我的项目\MyProgram\MyTestDemo\obj\Debug\MyTestDemo.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\MyTestDemo\obj\Debug\MyTestDemo.Form1.resources
+D:\我的项目\MyProgram\MyTestDemo\obj\Debug\MyTestDemo.Form2.resources
+D:\我的项目\MyProgram\MyTestDemo\obj\Debug\MyTestDemo.Form3.resources
+D:\我的项目\MyProgram\MyTestDemo\obj\Debug\MyTestDemo.Properties.Resources.resources
+D:\我的项目\MyProgram\MyTestDemo\obj\Debug\MyTestDemo.csproj.GenerateResource.Cache

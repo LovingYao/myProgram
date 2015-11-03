@@ -1,0 +1,9 @@
+D:\我的项目\MyProgram\ImportDataTool\bin\Debug\ImportDataTool.exe.config
+D:\我的项目\MyProgram\ImportDataTool\bin\Debug\ImportDataTool.exe
+D:\我的项目\MyProgram\ImportDataTool\bin\Debug\ImportDataTool.pdb
+D:\我的项目\MyProgram\ImportDataTool\obj\Debug\ImportDataTool.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\ImportDataTool\obj\Debug\ImportDataTool.ImportDataMain.resources
+D:\我的项目\MyProgram\ImportDataTool\obj\Debug\ImportDataTool.Properties.Resources.resources
+D:\我的项目\MyProgram\ImportDataTool\obj\Debug\ImportDataTool.csproj.GenerateResource.Cache
+D:\我的项目\MyProgram\ImportDataTool\obj\Debug\ImportDataTool.exe
+D:\我的项目\MyProgram\ImportDataTool\obj\Debug\ImportDataTool.pdb

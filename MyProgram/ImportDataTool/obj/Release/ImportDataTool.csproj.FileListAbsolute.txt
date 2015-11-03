@@ -1,0 +1,14 @@
+D:\我的项目\MyProgram\ImportDataTool\bin\Release\ImportDataTool.exe.config
+D:\我的项目\MyProgram\ImportDataTool\bin\Release\ImportDataTool.exe
+D:\我的项目\MyProgram\ImportDataTool\bin\Release\ImportDataTool.pdb
+D:\我的项目\MyProgram\ImportDataTool\obj\Release\ImportDataTool.ImportDataMain.resources
+D:\我的项目\MyProgram\ImportDataTool\obj\Release\ImportDataTool.Properties.Resources.resources
+D:\我的项目\MyProgram\ImportDataTool\obj\Release\ImportDataTool.csproj.GenerateResource.Cache
+D:\我的项目\MyProgram\ImportDataTool\obj\Release\ImportDataTool.exe
+D:\我的项目\MyProgram\ImportDataTool\obj\Release\ImportDataTool.pdb
+D:\我的项目\MyProgram\ImportDataTool\obj\Release\ImportDataTool.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\ImportDataTool\bin\Release\DBFactory.dll
+D:\我的项目\MyProgram\ImportDataTool\bin\Release\DBFactory.pdb
+D:\我的项目\MyProgram\ImportDataTool\obj\Release\ImportDataTool.ImportModuleTest.resources
+D:\我的项目\MyProgram\ImportDataTool\bin\Release\MySql.Data.dll
+D:\我的项目\MyProgram\ImportDataTool\obj\Release\ImportDataTool.ImportDataMain2.resources

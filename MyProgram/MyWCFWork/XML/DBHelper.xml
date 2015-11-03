@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DBHelper>
+  <item>
+     <DBId>1</DBId>
+     <DBType>Sqlserver</DBType>
+     <DBShowName>保险系统正式库</DBShowName>
+     <DBName>InsuranceReport</DBName>
+     <DBUrl>Data Source=CSICN01DSQL02\INSTANCE02;Initial Catalog=InsuranceReport;User ID=InsuranceReport;Password=5rfds3#ED#WA</DBUrl>
+   </item>
+  <item>
+    <DBId>2</DBId>
+    <DBType>Mysql</DBType>
+    <DBShowName>10.245.40.81_MULE_ESB</DBShowName>
+    <DBName>MULE_ESB</DBName>
+    <DBUrl>Server=10.245.40.81;Database=MULE_ESB;Uid=root;Pwd=root;CharSet=utf8;</DBUrl>
+  </item>
+  <item>    <DBId>3</DBId>
+    <DBType>Sqlserver</DBType>
+    <DBShowName>15正式库</DBShowName>
+    <DBName>TRACKING</DBName>
+    <DBUrl>Server=10.245.40.81;Database=TRACKING;Uid=root;Pwd=root;CharSet=utf8;</DBUrl>
+  </item>
+</DBHelper>
+

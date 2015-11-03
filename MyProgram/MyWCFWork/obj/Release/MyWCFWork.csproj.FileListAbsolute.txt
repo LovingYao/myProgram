@@ -1,0 +1,5 @@
+D:\我的项目\MyProgram\MyWCFWork\bin\MyWCFWork.dll
+D:\我的项目\MyProgram\MyWCFWork\bin\MyWCFWork.pdb
+D:\我的项目\MyProgram\MyWCFWork\obj\Release\MyWCFWork.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\MyWCFWork\obj\Release\MyWCFWork.dll
+D:\我的项目\MyProgram\MyWCFWork\obj\Release\MyWCFWork.pdb

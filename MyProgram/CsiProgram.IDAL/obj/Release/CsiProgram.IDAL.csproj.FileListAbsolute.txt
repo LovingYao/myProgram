@@ -1,0 +1,12 @@
+D:\我的项目\MyProgram\CsiProgram.IDAL\bin\Release\CsiProgram.IDAL.dll
+D:\我的项目\MyProgram\CsiProgram.IDAL\bin\Release\CsiProgram.IDAL.pdb
+D:\我的项目\MyProgram\CsiProgram.IDAL\bin\Release\CsiProgram.EFModel.dll
+D:\我的项目\MyProgram\CsiProgram.IDAL\bin\Release\EntityFramework.dll
+D:\我的项目\MyProgram\CsiProgram.IDAL\bin\Release\CsiProgram.EFModel.pdb
+D:\我的项目\MyProgram\CsiProgram.IDAL\bin\Release\EntityFramework.xml
+D:\我的项目\MyProgram\CsiProgram.IDAL\bin\Release\zh-Hans\EntityFramework.resources.dll
+D:\我的项目\MyProgram\CsiProgram.IDAL\obj\Release\CsiProgram.IDAL.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\CsiProgram.IDAL\obj\Release\CsiProgram.IDAL.dll
+D:\我的项目\MyProgram\CsiProgram.IDAL\obj\Release\CsiProgram.IDAL.pdb
+D:\我的项目\MyProgram\CsiProgram.IDAL\bin\Release\CsiProgram.Entity.dll
+D:\我的项目\MyProgram\CsiProgram.IDAL\bin\Release\CsiProgram.Entity.pdb

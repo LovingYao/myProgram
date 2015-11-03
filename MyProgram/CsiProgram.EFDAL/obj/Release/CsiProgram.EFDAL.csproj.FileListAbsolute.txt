@@ -1,0 +1,13 @@
+D:\我的项目\MyProgram\CsiProgram.EFDAL\bin\Release\CsiProgram.EFDAL.dll
+D:\我的项目\MyProgram\CsiProgram.EFDAL\bin\Release\CsiProgram.EFDAL.pdb
+D:\我的项目\MyProgram\CsiProgram.EFDAL\bin\Release\CsiProgram.EFModel.dll
+D:\我的项目\MyProgram\CsiProgram.EFDAL\bin\Release\CsiProgram.IDAL.dll
+D:\我的项目\MyProgram\CsiProgram.EFDAL\bin\Release\EntityFramework.dll
+D:\我的项目\MyProgram\CsiProgram.EFDAL\bin\Release\CsiProgram.EFModel.pdb
+D:\我的项目\MyProgram\CsiProgram.EFDAL\bin\Release\CsiProgram.IDAL.pdb
+D:\我的项目\MyProgram\CsiProgram.EFDAL\bin\Release\EntityFramework.xml
+D:\我的项目\MyProgram\CsiProgram.EFDAL\obj\Release\CsiProgram.EFDAL.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\CsiProgram.EFDAL\obj\Release\CsiProgram.EFDAL.dll
+D:\我的项目\MyProgram\CsiProgram.EFDAL\obj\Release\CsiProgram.EFDAL.pdb
+D:\我的项目\MyProgram\CsiProgram.EFDAL\bin\Release\CsiProgram.Entity.dll
+D:\我的项目\MyProgram\CsiProgram.EFDAL\bin\Release\CsiProgram.Entity.pdb

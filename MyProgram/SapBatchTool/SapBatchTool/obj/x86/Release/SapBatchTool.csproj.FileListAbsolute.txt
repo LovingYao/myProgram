@@ -1,0 +1,10 @@
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\bin\x86\Release\SapBatchTool.exe.config
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\bin\x86\Release\SapBatchTool.exe
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\bin\x86\Release\SapBatchTool.pdb
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\obj\x86\Release\SapBatchTool.csprojResolveAssemblyReference.cache
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\obj\x86\Release\SapBatchTool.Form1.resources
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\obj\x86\Release\SapBatchTool.Properties.Resources.resources
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\obj\x86\Release\SapBatchTool.csproj.GenerateResource.Cache
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\obj\x86\Release\SapBatchTool.exe
+c:\users\bin.cao\documents\visual studio 2012\Projects\SapBatchTool\SapBatchTool\obj\x86\Release\SapBatchTool.pdb
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\SapBatchTool\SapBatchTool\obj\x86\Release\SapBatchTool.Form2.resources

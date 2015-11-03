@@ -1,0 +1,10 @@
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTools\bin\Debug\MyTools.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTools\bin\Debug\MyTools.pdb
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTools\obj\Debug\MyTools.csprojResolveAssemblyReference.cache
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTools\obj\Debug\MyTools.dll
+C:\Users\bin.cao\Documents\Visual Studio 2012\Projects\MyProgram\MyTools\obj\Debug\MyTools.pdb
+D:\我的项目\MyProgram\MyTools\bin\Debug\MyTools.dll
+D:\我的项目\MyProgram\MyTools\bin\Debug\MyTools.pdb
+D:\我的项目\MyProgram\MyTools\obj\Debug\MyTools.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\MyTools\obj\Debug\MyTools.dll
+D:\我的项目\MyProgram\MyTools\obj\Debug\MyTools.pdb

@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "系统登陆";
+    Layout = "~/Views/Shared/_easyuibody.cshtml";
+}
+
+<script type="text/javascript" src="@Url.Content("~/Content/LADScript/Login.js")"></script>
+
+<div id="LoginDIV" class="easyui-window"  title="用户登陆">
+    <form style="padding:10px 20px 10px 40px;">
+        <p>用  户： <input id="username" type="text"></p>
+        <p>密  码： <input id="password" type="password"></p>
+        <div style="padding:5px;text-align:center;">
+            <a href="javascript:void(0)" class="easyui-linkbutton" icon="icon-ok" onclick="Login();">登录</a>
+        </div>
+    </form>
+</div>

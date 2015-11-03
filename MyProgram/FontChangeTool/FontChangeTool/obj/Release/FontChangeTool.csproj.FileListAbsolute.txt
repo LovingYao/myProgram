@@ -1,0 +1,10 @@
+D:\我的项目\MyProgram\FontChangeTool\FontChangeTool\bin\Release\FontChangeTool.exe.config
+D:\我的项目\MyProgram\FontChangeTool\FontChangeTool\bin\Release\FontChangeTool.exe
+D:\我的项目\MyProgram\FontChangeTool\FontChangeTool\bin\Release\FontChangeTool.pdb
+D:\我的项目\MyProgram\FontChangeTool\FontChangeTool\obj\Release\FontChangeTool.csprojResolveAssemblyReference.cache
+D:\我的项目\MyProgram\FontChangeTool\FontChangeTool\obj\Release\FontChangeTool.csproj.ResolveComReference.cache
+D:\我的项目\MyProgram\FontChangeTool\FontChangeTool\obj\Release\FontChangeTool.Form1.resources
+D:\我的项目\MyProgram\FontChangeTool\FontChangeTool\obj\Release\FontChangeTool.Properties.Resources.resources
+D:\我的项目\MyProgram\FontChangeTool\FontChangeTool\obj\Release\FontChangeTool.csproj.GenerateResource.Cache
+D:\我的项目\MyProgram\FontChangeTool\FontChangeTool\obj\Release\FontChangeTool.exe
+D:\我的项目\MyProgram\FontChangeTool\FontChangeTool\obj\Release\FontChangeTool.pdb
