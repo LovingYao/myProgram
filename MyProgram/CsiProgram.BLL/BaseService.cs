@@ -14,7 +14,8 @@ namespace CsiProgram.BLL
 
         //基类的构造函数
         public BaseService()
-        {
+        { 
+            //test
             SetCurrentRepository();  //构造函数里面调用了此设置当前仓储的抽象方法
         }
 
